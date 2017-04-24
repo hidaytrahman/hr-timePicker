@@ -1,6 +1,41 @@
 # hr-timePicker
 ### Very simple and easy plugin to implement Time Picker
 
+- [x] Custom Color Combination option
+- [ ] LESS and SASS Compatible
+- [x] Responsive
+- [x] Custom Arrow
+- [x] Lightweight Plugin
+
+
+#### HTML
+Add required files:
+```html
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  <script src="js/hr.timePicker.min.js"></script>
+```
+
+Copy and paste code below:
+```html
+        <div class="hr-time-picker">
+            <div class="picked-time-wrapper">
+                <input type="text" class="picked-time">
+            </div>
+            <div class="pick-time-now">
+                <div class="hours hr-timer">
+                    <div class="movable-area">
+                        <ul></ul>
+                    </div>
+                </div>
+                <div class="minutes hr-timer">
+                    <ul></ul>
+                </div>
+            </div>
+        </div>
+        <!-- Time picker end here-->
+
+```
+
 #### jQuery
 Add this in script
 ```javascript
