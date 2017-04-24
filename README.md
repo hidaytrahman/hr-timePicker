@@ -1,11 +1,15 @@
-# hr-timePicker
+# hr-timePicker :clock1:
 ### Very simple and easy plugin to implement Time Picker
 
-- [x] Custom Color Combination option
-- [ ] LESS and SASS Compatible
-- [x] Responsive
-- [x] Custom Arrow
-- [x] Lightweight Plugin
+:heavy_check_mark: Custom Color Combination option
+
+:heavy_multiplication_x: LESS and SASS Compatible
+
+:heavy_check_mark: Responsive
+
+:heavy_check_mark: Custom Arrow
+
+:heavy_check_mark: Lightweight Plugin
 
 
 #### HTML
@@ -47,4 +51,7 @@ $(".hr-time-picker").hrTimePicker({
 });
 ```
 
-Live Demo : [Click Here](http://hidaytrahman.github.io/hr-timePicker/example/)
+### Live Demo : [Click Here](http://hidaytrahman.github.io/hr-timePicker/example/)
+
+If you :heart: work, [Buy me  :beer:](https://www.paypal.me/hidaytrahman/5)  :blush:
+
