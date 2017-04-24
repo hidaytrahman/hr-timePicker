@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>HR Time Picker</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="keyword" content="HR Time Picker, jquery time picker, timepicker, responsive time picker, html time picker, custom time picker, date and time in html, time selector, get current time, time picker in javascript, time picker in jquery Hidayt Rahman, Md hidaytullah Rahmani">
+    <meta name="description" content="">
+    <meta name="author" content="Md Hidaytullah Rahmani, Hidayt Rahman">
+    <link rel="stylesheet" href="css/hr-timePicker.min.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="js/hr.timePicker.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $(".hr-time-picker").hrTimePicker({
+                disableColor: "#989c9c", // red, green, #000
+                enableColor: "#ff5722", // red, green, #000
+                arrowTopSymbol: "&#9650;", // ▲ -- Enter html entity code
+                arrowBottomSymbol: "&#9660;" // ▼ -- Enter html entity code
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="main-wrapper">
+        <h2>HR Time Picker</h2>
+        <h4>Very simple and easy plugin to implement Time Picker</h4>
+
+        <div class="hr-time-picker">
+            <div class="picked-time-wrapper">
+                <input type="text" class="picked-time">
+            </div>
+            <div class="pick-time-now">
+                <div class="hours hr-timer">
+                    <div class="movable-area">
+                        <ul></ul>
+                    </div>
+                </div>
+                <div class="minutes hr-timer">
+                    <ul></ul>
+                </div>
+            </div>
+        </div>
+        <!-- Time picker end here-->
+
+    </div>
+</body>
+
+</html>
